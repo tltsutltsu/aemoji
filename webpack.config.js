@@ -27,6 +27,7 @@ module.exports = {
         library: 'aEmoji',
         libraryTarget: 'umd',
         globalObject: 'this',
-        umdNamedDefine: true
+        umdNamedDefine: true,
+        publicPath: ''
     }
 };
